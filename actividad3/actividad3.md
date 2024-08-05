@@ -158,3 +158,10 @@ ls -l ~/archivo1.txt
 ls -ld ~/directorio1
 ls -l ~/directorio1/archivo2.txt
 ```
+
+###¿Por qué es importante gestionar correctamente los usuarios y permisos en un sistema operativo?
+Gestionar correctamente los usuarios y permisos en un sistema operativo es crucial para mantener la seguridad del sistema y proteger la información sensible. Al controlar quién tiene acceso a determinados archivos y directorios, se previene el acceso no autorizado y las posibles fugas de datos. Además, una buena gestión de permisos garantiza que solo las personas adecuadas puedan realizar cambios en el sistema, lo que ayuda a evitar errores humanos que podrían comprometer la estabilidad del sistema. 
+
+
+###¿Qué otros comandos o técnicas conocen para gestionar permisos en Linux?
+En Linux, además de los comandos básicos como chmod, chown, y chgrp, existen otras técnicas para gestionar permisos de manera más avanzada. Por ejemplo, se pueden usar las Listas de Control de Acceso (ACL) con comandos como setfacl y getfacl, que permiten establecer permisos más detallados para usuarios y grupos específicos. También está el comando umask, que define los permisos predeterminados para nuevos archivos y directorios creados por un usuario. Además, se puede utilizar el archivo /etc/sudoers para otorgar permisos de superusuario a usuarios específicos para ejecutar ciertos comandos sin necesidad de cambiar de usuario completamente. Finalmente, herramientas como SELinux o AppArmor ofrecen control de acceso adicional a nivel de sistema, proporcionando una capa extra de seguridad.
