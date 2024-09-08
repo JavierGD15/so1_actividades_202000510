@@ -16,3 +16,6 @@ Javier Alexander Girón Donis
 
 ## Resumen según las respuestas
 Ambas personas tienen una comprensión general de los conceptos, aunque dichas con pequeñas diferencias. La persona 1 tiende a proporcionar definiciones más enfocadas a ejemplos específicos, como documentos o fotos para "Archivo", mientras que la persona 2 ofrece definiciones más generales y conceptuales, como "conjunto de datos".
+
+
+Pruebas de comandosS
